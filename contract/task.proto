@@ -3,3 +3,7 @@ package contract;
 message Task {
     optional string task = 1;
 }
+
+message Response {
+    optional bytes response = 1;
+}
