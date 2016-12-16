@@ -2,6 +2,7 @@ package contract;
 
 message Task {
     optional string task = 1;
+    optional int32 id = 2;
 }
 
 message Response {
