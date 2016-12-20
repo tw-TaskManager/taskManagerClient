@@ -8,3 +8,9 @@ message Task {
 message Response {
     optional bytes response = 1;
 }
+
+message User {
+    optional string userName = 1;
+    optional string emailId = 2;
+    optional string password = 3;
+}
